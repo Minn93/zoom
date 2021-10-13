@@ -31,3 +31,15 @@ function onSocketClose() {
   });
   
   server.listen(3000, handleListen);
+
+
+
+  {
+    type:"message",
+    payload:"hello everyone!",
+  }
+  
+  {
+    type:"nick",
+    payload:"min",
+  }
